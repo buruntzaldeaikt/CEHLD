@@ -3,9 +3,6 @@
 		<loc>https://cehld.buruntzaldeaikt.eus/sitemap.xml/index.html</loc>
 	</url>
 	<url>
-		<loc>https://cehld.buruntzaldeaikt.eus/sitemap.xml/dokumentación.html</loc>
-	</url>
-	<url>
 		<loc>https://cehld.buruntzaldeaikt.eus/sitemap.xml/timing.html</loc>
 	</url>
 	<url>
@@ -19,5 +16,8 @@
 	</url>
 	<url>
 		<loc>https://cehld.buruntzaldeaikt.eus/sitemap.xml/nota-legal.html</loc>
+	</url>
+	<url>
+		<loc>https://cehld.buruntzaldeaikt.eus/sitemap.xml/documentación.html</loc>
 	</url>
 </urlset>
