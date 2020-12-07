@@ -63,8 +63,8 @@
       "underlineLink": true,
       "opacity": "99",
       "opacityOverlay": "80",
-      "text": "Webgune honek cookiak erabiltzen ditu, nabigazio esperientzia hobea eskaintzeko asmoz. Irakurri gure <a href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>.",
-      "textButton": "ADOS NAGO"
+      "text": "Ésta web utiliza cookies para mejorar la experiencia de uso. Lea nuestro  <a href='https://www.cehld.buruntzaldeaikt.eus/Nota-Legal.html'>Aviso legal, Condiciones de Uso y Política de Privacidad</a>.",
+      "textButton": "ESTOY DE ACUERDO"
     },
     "gdpr": false,
     "site_lang": "undefined",
