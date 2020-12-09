@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cto. de Euskal Herria de Larga Distancia",
-    "currentPage": "timing.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -45,7 +45,7 @@
     ],
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "uniqCompNum": 56,
+    "uniqCompNum": 57,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -527,6 +527,39 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "Actualizaciones",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Actualización",
+            "modalBody": "Se ha actualizado el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a>",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Cerrar",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": false,
+            "modalAutoOpenDelay": "4"
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Actualizaciones\">Preview Actualizaciones</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Actualizaciones-howtouse\">How to use Actualizaciones</a>\n</div>\n<div class=\"modal fade\" id=\"Actualizaciones-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Actualizaciones-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Actualizaciones-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Actualizaciones')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Se ha actualizado el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a>",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-1k",
+          "modalWindow": "<div class=\"modal fade\" id=\"Actualizaciones\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ActualizacionesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ActualizacionesLabel\">Actualización</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Actualizaciones_body\">Se ha actualizado el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Cerrar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Actualizaciones\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Actualizaciones_body\" ).html();    $( \"#Actualizaciones_body\" ).empty();    $( \"#Actualizaciones_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
