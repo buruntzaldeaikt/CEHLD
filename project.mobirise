@@ -520,7 +520,7 @@
           },
           "_name": "header1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/82772124-630338577736138-4028436335873228800-o.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Campeonato de Euskal Herria de Larga Distancia</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">12 de diciembre de 2020, a partir de las 10:00</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Polideportivo Maialen Chourraut, Lasarte-Oria</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/20-CIRCULAR-02-N-Cto-EH-larga-distancia-C.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Normativa</a> <a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Listado</a> <a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p\" data-app-placeholder=\"Type Text\" target=\"_blank\">Series</a> <a class=\"btn btn-primary\" href=\"assets/files/EMAITZAK.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Resultados</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/82772124-630338577736138-4028436335873228800-o.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Campeonato de Euskal Herria de Larga Distancia</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">12 de diciembre de 2020, a partir de las 10:00</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Polideportivo Maialen Chourraut, Lasarte-Oria</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/20-CIRCULAR-02-N-Cto-EH-larga-distancia-C.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Normativa</a> <a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Listado</a> <a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p\" data-app-placeholder=\"Type Text\" target=\"_blank\">Series</a> <a class=\"btn btn-primary\" href=\"assets/files/EMAITZAK.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Resultados</a> <a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/QwkhseajZNfECnae6\" data-app-placeholder=\"Type Text\" target=\"_blank\">Fotos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "header1-9",
           "_isUserblock": true,
           "_cid": "si3inwhyOX",
@@ -528,39 +528,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Actualizaciones",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Actualizaciónes: 13:15 10/12/2020",
-            "modalBody": "1.- Se ha actualizado DE NUEVO el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a>\n<br><br>\n2.- Se ha publicado el listado de participantes <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>VER</a><br><br>\n3.- Se han publicado las series<a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>VER</a>",
-            "modalBodyHTML": true,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Cerrar",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": false,
-            "modalAutoOpenDelay": "3"
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Actualizaciones\">Preview Actualizaciones</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Actualizaciones-howtouse\">How to use Actualizaciones</a>\n</div>\n<div class=\"modal fade\" id=\"Actualizaciones-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Actualizaciones-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Actualizaciones-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Actualizaciones')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "1.- Se ha actualizado DE NUEVO el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a>\n<br><br>\n2.- Se ha publicado el listado de participantes <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>VER</a><br><br>\n3.- Se han publicado las series<a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>VER</a>",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-1k",
-          "modalWindow": "<div class=\"modal fade\" id=\"Actualizaciones\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ActualizacionesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ActualizacionesLabel\">Actualizaciónes: 13:15 10/12/2020</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Actualizaciones_body\">1.- Se ha actualizado DE NUEVO el timing <a href='https://cehld.buruntzaldeaikt.eus/timing.html'>VER</a>\n<br><br>\n2.- Se ha publicado el listado de participantes <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>VER</a><br><br>\n3.- Se han publicado las series<a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>VER</a></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Cerrar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Actualizaciones\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Actualizaciones_body\" ).html();    $( \"#Actualizaciones_body\" ).empty();    $( \"#Actualizaciones_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
@@ -1367,39 +1334,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Resultados",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Resultados",
-            "modalBody": "Todavía no hay resultados",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Cerrar",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Resultados\">Preview Resultados</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Resultados-howtouse\">How to use Resultados</a>\n</div>\n<div class=\"modal fade\" id=\"Resultados-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Resultados-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Resultados-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Resultados')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Todavía no hay resultados",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-1m",
-          "modalWindow": "<div class=\"modal fade\" id=\"Resultados\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ResultadosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ResultadosLabel\">Resultados</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Resultados_body\">Todavía no hay resultados</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Cerrar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Resultados\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Resultados_body\" ).html();    $( \"#Resultados_body\" ).empty();    $( \"#Resultados_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
