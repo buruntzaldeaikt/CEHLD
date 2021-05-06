@@ -73,6 +73,8 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8QX7456G9R\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-8QX7456G9R');\n</script>\n",
     "mbrsiteDomain": "17p3utyflg",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "witsec-language": "es"
   },
   "pages": {
