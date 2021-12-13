@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cto. de Euskal Herria de Larga Distancia",
-    "currentPage": "index.html",
+    "currentPage": "documentación.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -46,7 +46,7 @@
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "uniqCompNum": 65,
-    "versionPublish": "5.5.2",
+    "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "favicon": false,
     "imageResize": true,
