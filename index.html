@@ -106,7 +106,7 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-1u" data-rv-view="617">
+<section class="mbr-section" id="witsec-modal-window-block-1v" data-rv-view="335">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -121,15 +121,35 @@
 
 	
 	
-	<div><div class="modal fade" id="Covid19-ziurtagiria" tabindex="-1" role="dialog" aria-labelledby="Covid19-ziurtagiriaLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Covid19-ziurtagiriaLabel">Certificado Covid-19</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Covid19-ziurtagiria_body">Según decreto 47/2021 del lehendakari del 14 de diciembre del 2021, será obligatorio mostrar el Certificado Digital Covid de la Unión Europea para poder acceder a la instalación.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Lo entiendo</a></div><div class="mbr-section-btn"><a href="https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/es_def/Decreto-47-2021-de-14-de-diciembre.pdf" class="no-anim btn btn-primary display-4">Decreto 47/2021</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Covid19-ziurtagiria").on("hidden.bs.modal", function () {    var html = $( "#Covid19-ziurtagiria_body" ).html();    $( "#Covid19-ziurtagiria_body" ).empty();    $( "#Covid19-ziurtagiria_body" ).append(html);  })});</script></div>
+	<div><div class="modal fade" id="c19" tabindex="-1" role="dialog" aria-labelledby="c19Label" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="c19Label">Certificado Covid19 y Mascarilla</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="c19_body">Según decreto 47/2021 del lehendakari del 14 de diciembre del 2021, será obligatorio mostrar el Certificado Digital Covid de la Unión Europea para poder acceder a la instalación.<br><br>El uso de la mascarilla es obligatorio en todo momento, a excepción del momento de estar en el agua.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Lo entiendo</a></div><div class="mbr-section-btn"><a href="https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/es_def/Decreto-47-2021-de-14-de-diciembre.pdf" class="no-anim btn btn-primary display-4">Decreto 47/2021</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#c19").on("hidden.bs.modal", function () { 
+      var html = $( "#c19_body" ).html(); 
+      $( "#c19_body" ).empty(); 
+      $( "#c19_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#c19") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
 		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
 		}
 	}
 
@@ -159,7 +179,7 @@
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("Covid19-ziurtagiria"); } , 3000);
+  setTimeout( function() { OpenModal("c19"); } , 2000);
 });
 </script>
 
