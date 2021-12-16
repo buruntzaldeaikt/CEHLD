@@ -1075,6 +1075,9 @@ a {
 .cid-sRFdovbp7r .row {
   justify-content: center;
 }
+.cid-sRFdovbp7r .card-text {
+  text-align: justify;
+}
 .cid-si3IUABi1L {
   padding-top: 2rem;
   padding-bottom: 0rem;
