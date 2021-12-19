@@ -97,7 +97,7 @@
         <div class="col-md-12 ">
             <div class="d-flex justify-content-between align-items-center breaking-news" style="background: #ffffff">
                 <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2  px-2 news"><span class="d-flex align-items-center"><div>¡ATENCIÓN!</div></span></div>
-                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#"></a><div><a href="#" class="text-black">Nueva composición de series en las pruebas de 3000 metros</a> <span class="dot"></span> <a href="#"><strong><em>Ver aqui</em></strong> </a><span class="dot"></span></div></marquee>
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#"></a><div><a href="#" class="text-black">Nueva composición de series en las pruebas de 3000 metros</a></div></marquee>
             </div>
         </div>
     </div>
@@ -120,88 +120,11 @@
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Campeonato de Euskal Herria de Larga Distancia</strong></h1>
                 <h2 class="mbr-section-title mbr-fonts-style mb-3 display-2">18 de diciembre de 2021, a partir de las 9:45</h2>
                 <p class="mbr-text mbr-fonts-style display-5">Polideportivo Maialen Chourraut, Lasarte-Oria</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="assets/files/22-CIRCULAR-05-N-Cto-EH-larga-distancia-C.pdf" target="_blank">Normativa</a> <a class="btn btn-primary display-4" href="assets/files/inscripciones-por-prueba-1.pdf" target="_blank">Listado</a> <a class="btn btn-primary display-4" href="assets/files/series-1.pdf" target="_blank">Series</a> <a class="btn btn-primary display-4" href="https://live.swimrankings.net/31988/" target="_blank">Resultados</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="assets/files/22-CIRCULAR-05-N-Cto-EH-larga-distancia-C.pdf" target="_blank">Normativa</a> <a class="btn btn-primary display-4" href="assets/files/inscripciones-por-prueba-1.pdf" target="_blank">Listado</a> <a class="btn btn-primary display-4" href="assets/files/series-1.pdf" target="_blank">Series</a> <a class="btn btn-primary display-4" href="https://live.swimrankings.net/31988/" target="_blank">Resultados</a> <a class="btn btn-primary display-4" href="https://www.facebook.com/media/set/?vanity=KHPFoto&set=a.330175072443764" target="_blank">Fotos</a></div>
             </div>
         </div>
     </div>
 </section>
-
-<section class="mbr-section" id="witsec-modal-window-block-1v" data-rv-view="203">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="c19" tabindex="-1" role="dialog" aria-labelledby="c19Label" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="c19Label">Certificado Covid19 y Mascarilla</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="c19_body">Según decreto 47/2021 del lehendakari del 14 de diciembre del 2021, será obligatorio mostrar el Certificado Digital Covid de la Unión Europea para poder acceder a la instalación. Es posible que se solicite el DNI para comprobar la veracidad del certificado.<br><br>A excepción del momento de entrar al agua (hasta y desde el poyete) el uso de la mascarilla será OBLIGATORIO en todo momento.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Lo entiendo</a></div><div class="mbr-section-btn"><a href="https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/es_def/Decreto-47-2021-de-14-de-diciembre.pdf" class="no-anim btn btn-primary display-4">Decreto 47/2021</a></div></div>    </div>  </div></div><script> 
-document.addEventListener("DOMContentLoaded", function() { 
-  if(typeof jQuery === "function") {
-    $("#c19").on("hidden.bs.modal", function () { 
-      var html = $( "#c19_body" ).html(); 
-      $( "#c19_body" ).empty(); 
-      $( "#c19_body" ).append(html); 
-    }) 
-  } else { 
-      var mdw = document.getElementById("#c19") 
-      mdw.addEventListener("hidden.bs.modal", function(event) { 
-        mdw.innerHTML = mdw.innerHTML; 
-      }); 
-  } 
-}); 
-</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if(typeof jQuery === "function") {
-				if ($('#' + modalName).length)
-					$('#' + modalName).modal('show');
-				else
-					alert("Sorry, but there is no modal for " + modalName);
-			} else {
-				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
-				mdw.show();
-			}
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("c19"); } , 2000);
-});
-</script>
 
 <section data-bs-version="5.1" class="features1 cid-sRFdovbp7r" id="Covid-19">
     

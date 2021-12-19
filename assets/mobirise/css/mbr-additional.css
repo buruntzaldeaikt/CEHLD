@@ -1489,7 +1489,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-si3NPVfhT6 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 6.5rem);
+    max-height: calc(98.5vh - 6.4rem);
   }
 }
 .cid-si3NPVfhT6 .navbar.collapsed .dropdown-menu .dropdown-submenu {
