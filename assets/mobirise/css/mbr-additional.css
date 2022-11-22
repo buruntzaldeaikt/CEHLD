@@ -1053,34 +1053,6 @@ a {
     text-align: center;
   }
 }
-.cid-sRFdovbp7r {
-  padding-top: 9rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-@media (min-width: 1500px) {
-  .cid-sRFdovbp7r .container {
-    max-width: 1400px;
-  }
-}
-.cid-sRFdovbp7r .mbr-iconfont {
-  display: block;
-  font-size: 5rem;
-  color: #024c1e;
-  margin-bottom: 2rem;
-}
-.cid-sRFdovbp7r .card-wrapper {
-  margin-top: 3rem;
-}
-.cid-sRFdovbp7r .row {
-  justify-content: center;
-}
-.cid-sRFdovbp7r .card-text {
-  text-align: justify;
-}
-.cid-sRFdovbp7r .mbr-section-title {
-  text-align: left;
-}
 .cid-si3IUABi1L {
   padding-top: 2rem;
   padding-bottom: 0rem;
@@ -1191,7 +1163,7 @@ a {
 }
 .cid-sRKjuGQ0oR {
   padding-top: 1rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
   text-align: justify;
 }
